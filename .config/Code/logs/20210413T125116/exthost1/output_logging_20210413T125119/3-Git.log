@@ -1,0 +1,8 @@
+Looking for git in: git
+Using git 2.25.1 from git
+Opening repository for path='/media/colin/Storage/Projects/C++/OS_Simulator' failed; ex=spawn git ENOENT {
+  "gitErrorCode": "NotAGitRepository"
+}Error: spawn git ENOENT
+	at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)
+	at onErrorNT (internal/child_process.js:469:16)
+	at processTicksAndRejections (internal/process/task_queues.js:84:21)

@@ -1,0 +1,7 @@
+[2021-04-12 16:23:14.001] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-04-12 18:51:09.617] [sharedprocess] [info] Installing extension: ms-vscode.cpptools
+[2021-04-12 18:51:10.129] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools undefined
+[2021-04-12 18:51:10.393] [sharedprocess] [info] Extracted extension to /home/colin/.vscode/extensions/.70b1fe99-ed09-4c86-a9f5-eda5429ce863: ms-vscode.cpptools
+[2021-04-12 18:51:10.408] [sharedprocess] [info] Renamed to /home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2
+[2021-04-12 18:51:10.414] [sharedprocess] [info] Installation completed. ms-vscode.cpptools
+[2021-04-12 18:51:10.420] [sharedprocess] [info] Extensions installed successfully: ms-vscode.cpptools

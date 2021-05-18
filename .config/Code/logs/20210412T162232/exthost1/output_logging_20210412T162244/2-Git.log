@@ -1,0 +1,29 @@
+Looking for git in: git
+Using git 2.25.1 from git
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/.gitignore' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/Instructions' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/OSProject backup' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/OSProject backup-20161029T161028Z.sln' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/OSProject backup-20161029T161028Z.vcxproj' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/OSProject backup-20161029T161028Z.vcxproj.filters' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/Program-File.txt' failed; ex=Error: spawn ENOTDIR
+Opening repository for path='/home/colin/Downloads/OS_Semester-Project-master/README.md' failed; ex=Error: spawn ENOTDIR

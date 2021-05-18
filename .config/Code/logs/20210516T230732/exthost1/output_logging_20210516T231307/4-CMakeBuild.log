@@ -1,0 +1,117 @@
+[variant] Loaded new set of variants
+[kit] Successfully loaded 1 kits from /home/colin/.local/share/CMakeTools/cmake-tools-kits.json
+[proc] Executing command: /bin/c89-gcc -v
+[proc] Executing command: /bin/c99-gcc -v
+[proc] Executing command: /bin/gcc -v
+[proc] Executing command: /bin/gcc-9 -v
+[proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /bin/x86_64-linux-gnu-gcc-9 -v
+[proc] Executing command: /usr/bin/c89-gcc -v
+[proc] Executing command: /usr/bin/c99-gcc -v
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/gcc-9 -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-9 -v
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Found Kit: GCC 9.3.0 x86_64-linux-gnu
+[kit] Successfully loaded 1 kits from /home/colin/.local/share/CMakeTools/cmake-tools-kits.json
+[main] Configuring folder: Crypt 
+[proc] Executing command: /bin/x86_64-linux-gnu-gcc-9 -v
+[main] Configuring folder: Crypt 
+[main] Configuring folder: Crypt 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/bin/x86_64-linux-gnu-gcc-9 -DCMAKE_CXX_COMPILER:FILEPATH=/bin/x86_64-linux-gnu-g++-9 -H/home/colin/Documents/Projects/CryptEngine/Crypt/cmake -B/home/colin/Documents/Projects/CryptEngine/Crypt/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] CMake Warning (dev) in CMakeLists.txt:
+[cmake]   No project() command is present.  The top-level CMakeLists.txt file must
+[cmake]   contain a literal, direct call to the project() command.  Add a line of
+[cmake]   code such as
+[cmake] 
+[cmake]     project(ProjectName)
+[cmake] 
+[cmake]   near the top of the file, but after cmake_minimum_required().
+[cmake] 
+[cmake]   CMake is pretending there is a "project(Project)" command on the first
+[cmake]   line.
+[cmake] This warning is for project developers.  Use -Wno-dev to suppress it.
+[cmake] 
+[cmake] -- The C compiler identification is GNU 9.3.0
+[cmake] -- The CXX compiler identification is GNU 9.3.0
+[cmake] -- Check for working C compiler: /bin/x86_64-linux-gnu-gcc-9
+[cmake] -- Check for working C compiler: /bin/x86_64-linux-gnu-gcc-9 -- works
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Check for working CXX compiler: /bin/x86_64-linux-gnu-g++-9
+[cmake] -- Check for working CXX compiler: /bin/x86_64-linux-gnu-g++-9 -- works
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done
+[cmake] -- Generating done
+[cmake] -- Build files have been written to: /home/colin/Documents/Projects/CryptEngine/Crypt/build
+[cmakefileapi-driver] This version of CMake does not support the "toolchains" object kind. Compiler paths will be determined by reading CMakeCache.txt.
+[main] Configuring folder: Crypt 
+[rollbar] "sourceDirectory" is not a directory {"sourceDirectory":"/home/colin/Documents/Projects/CryptEngine/Crypt/cmake"}
+[rollbar] "sourceDirectory" is not a directory {"sourceDirectory":"/home/colin/Documents/Projects/CryptEngine/Crypt/cmake"}
+[rollbar] Unhandled exception: Unhandled Promise rejection: quickStart Error: ENOENT: no such file or directory, open '/home/colin/Documents/Projects/CryptEngine/Crypt/cmake/Crypt.cpp' {}
+[driver] Failed to configure project
+[main] Building folder: Crypt 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/colin/Documents/Projects/CryptEngine/Crypt/build --config Debug --target all -j 10 --
+[build] CMake Error: The source directory "/home/colin/Documents/Projects/CryptEngine/Crypt/cmake" does not exist.
+[build] Specify --help for usage, or press the help button on the CMake GUI.
+[build] make: *** [Makefile:132: cmake_check_build_system] Error 1
+[rollbar] "sourceDirectory" is not a directory {"sourceDirectory":"/home/colin/Documents/Projects/CryptEngine/Crypt/cmake"}
+[build] Build finished with exit code 2
+[main] Configuring folder: Crypt 
+[main] Configuring folder: Crypt 
+[main] Building folder: Crypt 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/colin/Documents/Projects/CryptEngine/Crypt/build --config Debug --target all -j 10 --
+[build] Error: /home/colin/Documents/Projects/CryptEngine/Crypt/build is not a directory
+[build] Build finished with exit code 1
+[main] Building folder: Crypt clean
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/colin/Documents/Projects/CryptEngine/Crypt/build --config Debug --target clean -j 10 --
+[build] Error: /home/colin/Documents/Projects/CryptEngine/Crypt/build is not a directory
+[build] Build finished with exit code 1
+[main] Configuring folder: Crypt 
+[proc] Executing command: /usr/bin/cmake --no-warn-unused-cli -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE -DCMAKE_BUILD_TYPE:STRING=Debug -DCMAKE_C_COMPILER:FILEPATH=/bin/x86_64-linux-gnu-gcc-9 -DCMAKE_CXX_COMPILER:FILEPATH=/bin/x86_64-linux-gnu-g++-9 -H/home/colin/Documents/Projects/CryptEngine/Crypt -B/home/colin/Documents/Projects/CryptEngine/Crypt/build -G "Unix Makefiles"
+[cmake] Not searching for unused variables given on the command line.
+[cmake] -- The C compiler identification is GNU 9.3.0
+[cmake] -- The CXX compiler identification is GNU 9.3.0
+[cmake] -- Check for working C compiler: /bin/x86_64-linux-gnu-gcc-9
+[cmake] -- Check for working C compiler: /bin/x86_64-linux-gnu-gcc-9 -- works
+[cmake] -- Detecting C compiler ABI info
+[cmake] -- Detecting C compiler ABI info - done
+[cmake] -- Detecting C compile features
+[cmake] -- Detecting C compile features - done
+[cmake] -- Check for working CXX compiler: /bin/x86_64-linux-gnu-g++-9
+[cmake] -- Check for working CXX compiler: /bin/x86_64-linux-gnu-g++-9 -- works
+[cmake] -- Detecting CXX compiler ABI info
+[cmake] -- Detecting CXX compiler ABI info - done
+[cmake] -- Detecting CXX compile features
+[cmake] -- Detecting CXX compile features - done
+[cmake] -- Configuring done
+[cmake] -- Generating done
+[cmake] -- Build files have been written to: /home/colin/Documents/Projects/CryptEngine/Crypt/build
+[main] Building folder: Crypt 
+[build] Starting build
+[proc] Executing command: /usr/bin/cmake --build /home/colin/Documents/Projects/CryptEngine/Crypt/build --config Debug --target all -j 10 --
+[build] Scanning dependencies of target Crypt
+[build] [ 50%] Building CXX object CMakeFiles/Crypt.dir/Crypt.cpp.o
+[build] [100%] Linking CXX static library libCrypt.a
+[build] [100%] Built target Crypt
+[build] Build finished with exit code 0

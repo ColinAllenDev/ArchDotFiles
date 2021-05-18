@@ -1,0 +1,56 @@
+Updating C/C++ dependencies...
+
+Downloading package 'C/C++ language components (Linux / x86_64)' (10370 KB)  Done!
+Downloading package 'ClangFormat (Linux / x86_64)' (956 KB)  Done!
+Downloading package 'Mono Framework Assemblies' (5368 KB)  Done!
+Downloading package 'Mono Runtime (Linux / x86_64)' (1862 KB)  Done!
+
+Installing package 'C/C++ language components (Linux / x86_64)'
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/bin/cpptools-srv' already exists and was not updated.
+Installing package 'ClangFormat (Linux / x86_64)'
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/LLVM/bin/clang-format' already exists and was not updated.
+Installing package 'Mono Framework Assemblies'
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/config.linux' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/config.osx' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Collections.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Diagnostics.Debug.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Diagnostics.Tools.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Dynamic.Runtime.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Globalization.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.IO.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Linq.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Linq.Expressions.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.ObjectModel.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Reflection.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Reflection.Extensions.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Runtime.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Runtime.Extensions.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Runtime.InteropServices.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Runtime.Serialization.Primitives.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Text.Encoding.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Text.Encoding.Extensions.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Text.RegularExpressions.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Threading.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Threading.Tasks.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Xml.ReaderWriter.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Facades/System.Xml.XDocument.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Microsoft.CSharp.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Mono.CSharp.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Mono.Posix.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/Mono.Security.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/mscorlib.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.ComponentModel.Composition.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.Configuration.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.Core.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.Runtime.Serialization.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.Security.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.ServiceModel.Internals.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.Xml.dll' already exists and was not updated.
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/framework/System.Xml.Linq.dll' already exists and was not updated.
+Installing package 'Mono Runtime (Linux / x86_64)'
+Warning: File '/home/colin/.vscode/extensions/ms-vscode.cpptools-1.2.2/debugAdapters/mono.linux-x86_64' already exists and was not updated.
+
+Finished installing dependencies
+
