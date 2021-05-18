@@ -1,0 +1,58 @@
+" Vundle
+set nocompatible
+filetype off
+
+" Set runtime path to includ Vundle and init
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" YCM Config
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/youcompleteme/.ycm_extra_conf.py'
+
+" YCM Hover Functionality
+autocmd FileType c,cpp let b:ycm_hover = {'command': 'GetDoc', 'syntax': &syntax}
+
+let g:ycm_auto_hover=''
+
+nmap <leader>k <plug>(YCMHover)
+
+call vundle#begin() " Plugins begin here
+
+" General
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'valloric/youcompleteme'
+
+" Syntax Highlighting
+Plugin 'tikhomirov/vim-glsl'
+Plugin 'bfrg/vim-glfw-syntax'
+
+call vundle#end() " Plugins end here
+filetype plugin indent on
+
+" General
+set number
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+
+" Color Scheme
+colorscheme molokai
+highlight clear LineNr
+let g:molokai_original = 1
+
+:au BufNewFile,BufRead *.vs,*.fs set ft=glsl
+
+" Functions
+function! ScrollQuater(move)
+  let height=winheight(0)
+
+  if a:move == 'up'
+    let key="\<C-Y>"
+  else
+    let key="\<C-E>"
+  endif
+
+  execute 'normal!' . height/4 . key
+endfunction
+
+nnoremap <silent> <up> :call ScrollQuater('up')<CR>
+nnoremap <silent> <down> :call ScrollQuater('down')<CR>
