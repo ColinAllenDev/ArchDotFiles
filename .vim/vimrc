@@ -24,6 +24,7 @@ Plugin 'valloric/youcompleteme'
 " Syntax Highlighting
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'bfrg/vim-glfw-syntax'
+Plugin 'ColinAllenDev/vim-opengl-syntax'
 
 call vundle#end() " Plugins end here
 filetype plugin indent on
@@ -54,5 +55,7 @@ function! ScrollQuater(move)
   execute 'normal!' . height/4 . key
 endfunction
 
-nnoremap <silent> <up> :call ScrollQuater('up')<CR>
-nnoremap <silent> <down> :call ScrollQuater('down')<CR>
+" Key Mappings
+nnoremap <silent> <S-up> :call ScrollQuater('up')<CR>
+nnoremap <silent> <S-down> :call ScrollQuater('down')<CR>
+set whichwrap+=<,>,[,]
