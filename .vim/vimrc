@@ -1,4 +1,4 @@
-" Vundle
+"Vundle
 set nocompatible
 filetype off
 
@@ -24,7 +24,8 @@ Plugin 'valloric/youcompleteme'
 " Syntax Highlighting
 Plugin 'tikhomirov/vim-glsl'
 Plugin 'bfrg/vim-glfw-syntax'
-Plugin 'ColinAllenDev/vim-opengl-syntax'
+Plugin 'beyondmarc/opengl.vim'
+"Plugin 'ColinAllenDev/vim-opengl-syntax'
 
 call vundle#end() " Plugins end here
 filetype plugin indent on

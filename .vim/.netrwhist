@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/colin/Documents/Projects/Plugins/vim-opengl-syntax'
+let g:netrw_dirhist_2='/home/colin/.vim/bundle/vim-glfw-syntax'
+let g:netrw_dirhist_1='/home/colin/.vim/bundle/youcompleteme'
